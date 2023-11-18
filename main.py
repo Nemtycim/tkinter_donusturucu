@@ -6,7 +6,7 @@ from PIL import Image,ImageSequence
 class FileConverterApp:
     def __init__(self, master):
         self.master = master
-        master.title("File Converter")
+        master.title("File Converter >> Dosya Dönüştürücü")
 
         # Dosya adı için etiket
         self.file_label = tk.Label(master, text="Dosya Seçilmedi!")
